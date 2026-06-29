@@ -361,3 +361,43 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+###############################################################################
+# Unreal Engine
+###############################################################################
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+*.xcodeproj
+*.xcworkspace
+.vscode/
+.vsconfig
+*.VC.db
+*.opensdf
+*.sdf
+*.suo
+*.sln.docstates
+*.tmp
+*.pdb
+*.opendb
+*.cachefile
+
+# Ignore specific binary files
+*.exe
+*.dll
+*.lib
+*.exp
+*.ilk
+*.obj
+*.iobj
+*.pch
+
+# Ignore pak files
+*.pak
+*.utoc
+*.ucas
+
+# Ignore specific log files
+*.log
